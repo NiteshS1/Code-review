@@ -1,0 +1,98 @@
+/* ==== Common Styles for Login & Signup ==== */
+.auth-container {
+    width: 100%;
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 30px;
+    background: #1e1e1e;
+    color: white;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transition: 0.3s ease-in-out;
+  }
+  
+  .auth-container:hover {
+    transform: translateY(-5px);
+  }
+  
+  .auth-container h2 {
+    margin-bottom: 20px;
+    font-size: 28px;
+    font-weight: 600;
+    color: #fff;
+  }
+  
+  .auth-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .auth-container input {
+    margin: 12px 0;
+    padding: 12px;
+    border: 2px solid #646cff;
+    border-radius: 8px;
+    font-size: 16px;
+    background: #2a2a2a;
+    color: white;
+    outline: none;
+    transition: 0.3s ease;
+  }
+  
+  .auth-container input:focus {
+    border-color: #00c3ff;
+    box-shadow: 0 0 8px rgba(0, 195, 255, 0.6);
+  }
+  
+  .auth-container button {
+    padding: 12px;
+    background: linear-gradient(135deg, #646cff, #00c3ff);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .auth-container button:hover {
+    background: linear-gradient(135deg, #535bf2, #0099ff);
+    box-shadow: 0 5px 15px rgba(100, 108, 255, 0.3);
+  }
+  
+  .auth-container p {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #ccc;
+  }
+  
+  .auth-container a {
+    color: #00c3ff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .auth-container a:hover {
+    text-decoration: underline;
+  }
+  
+  /* ==== Responsive Design ==== */
+  @media (max-width: 480px) {
+    .auth-container {
+      width: 90%;
+      padding: 25px;
+    }
+  
+    .auth-container h2 {
+      font-size: 24px;
+    }
+  
+    .auth-container input,
+    .auth-container button {
+      font-size: 14px;
+    }
+  }
+  
