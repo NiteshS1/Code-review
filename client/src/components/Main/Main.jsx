@@ -11,7 +11,7 @@ function Main() {
         <div className='main'>
 
             <div className="nav">
-                <p>Gemini</p>
+                {/* <p>Gemini</p> */}
                 <img src={assets.user_icon} alt="" />
             </div>
 
@@ -80,7 +80,7 @@ function Main() {
                         </div>
                     </div>
                     <p className="bottom-info">
-                        Gemini may display inaccurate info, including about people, so double-check its responses. Your privacy and Gemini Apps
+                        Ai may display inaccurate info, including about people, so double-check its responses. Your privacy and Ai Apps
                     </p>
                 </div>
 
