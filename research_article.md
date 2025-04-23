@@ -54,11 +54,9 @@ The Code Review and Analysis Platform successfully demonstrates the potential of
 2. Advanced code analysis features
 3. AI-powered code review suggestions
 4. Enhanced collaboration features
-5. Mobile application development
 
 ## 7. References
 1. React Documentation (2024). React.js Official Documentation
 2. Vite Documentation (2024). Vite.js Official Documentation
 3. Highlight.js Documentation (2024). Highlight.js Official Documentation
 4. React-markdown Documentation (2024). React-markdown Official Documentation
-5. Prism.js Documentation (2024). Prism.js Official Documentation 

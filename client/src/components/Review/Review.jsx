@@ -7,6 +7,7 @@ import rehypeHighlight from "rehype-highlight";
 import "highlight.js/styles/github-dark.css";
 import axios from 'axios'
 import './Review.css';
+import Navbar from '../Navbar/Navbar'
 
 function Review() {
 
@@ -35,6 +36,7 @@ function Review() {
 
     return (
         <main>
+            <Navbar />
             <div className="left">
             <div className="code">
                 <Editor
